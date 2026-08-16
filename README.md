@@ -1,7 +1,6 @@
 # The Dragon Armoury Suite
 
 A collection of open-source tools for financial data analysis, binary inspection, and regulatory compliance.
-The Dragon Armoury Suite could save the global financial system $250-500B over 10 years.
 
 **The Dragon's Nest**: This armoury spawns sub-suites. Each nest is a domain. Each egg is a tool.
 
@@ -20,6 +19,7 @@ The Dragon Armoury Suite could save the global financial system $250-500B over 1
 | PartyVault | Cryptographic identity + ML trust | [Repo](https://github.com/Chikimonki/partyvault) |
 | Auditor-Smasher | Procurement audit + ML | [Repo](https://github.com/Chikimonki/Auditor-Smasher) |
 | Corruption-Tracker-DS | ML anomaly detection | [Repo](https://github.com/Chikimonki/Corruption-Tracker-DS) |
+| Corruption-Tracker-V2 | React + browser ML | [Repo](https://github.com/Chikimonki/Corruption-Tracker-V2) |
 
 ### 🛡️ Compliance Nest — Regulatory
 | Tool | Description | Repository |
@@ -27,6 +27,7 @@ The Dragon Armoury Suite could save the global financial system $250-500B over 1
 | Albatross | DORA workflow | [Repo](https://github.com/Chikimonki/Albatross) |
 | Gullwing-Curlew | Supplier binary verification | [Repo](https://github.com/Chikimonki/Gullwing-Curlew) |
 | Gullwing | Binary analysis (CRA) | [Repo](https://github.com/forgottennord-ship-it/GullWing) |
+| Gullwing-Auto | Vehicle ECU protection | [Repo](https://github.com/Chikimonki/Gullwing---Auto) |
 
 ### ⚡ Acceleration Nest — Performance
 | Tool | Description | Repository |
@@ -34,9 +35,16 @@ The Dragon Armoury Suite could save the global financial system $250-500B over 1
 | Kestrel v2.0 | Inference accelerator | [Repo](https://github.com/Chikimonki/gullwing-kestrel-v2.0) |
 | HyperPolyglot | Cloud microservices | [Repo](https://github.com/Chikimonki/hyperpolyglot-demos) |
 
-### 🎮 Binary Arcade Nest — Learning Through Play
-**ALL 6 GAMES BUILT**
+### 🦉 Regulatory Nest — Intelligence
+| Tool | Description | Repository |
+|------|-------------|------------|
+| Gullwing-Owl | Regulatory intelligence watcher | [Repo](https://github.com/Chikimonki/Gullwing-Owl) |
+| Gullwing-Flamingo | Legal text filter | [Repo](https://github.com/Chikimonki/Gullwing-Flamingo) |
+| Gullwing-Egret | Continuous compliance monitoring | [Repo](https://github.com/Chikimonki/Gullwing-Egret) |
+| Gullwing-Crane | Strategic forecasting | [Repo](https://github.com/Chikimonki/Gullwing-Crane) |
+| Gullwing-Gannet | High-velocity data ingestion | [Repo](https://github.com/Chikimonki/Gullwing-Gannet) |
 
+### 🎮 Binary Arcade Nest — Learning Through Play
 | Game | Teaches | Status |
 |------|---------|--------|
 | Assembly Golf | CPU instructions | ✅ |
@@ -46,28 +54,16 @@ The Dragon Armoury Suite could save the global financial system $250-500B over 1
 | Procurement Pursuit | Fraud patterns | ✅ |
 | Fleet Commander | Headscale networking | ✅ |
 
-## The Harness (The Nest)
-
-`gullwing/dev/harness.lua` — the plugin orchestrator that automates the pain away.
-
-- **check_disk()** — monitors C: drive space (the 0kb guard)
-- **validate()** — syntax checks all Lua files
-- **sync()** — WSL → Windows synchronisation
-
-The harness is the Cordis-style architecture. It mounts each weapon as a plugin.
-The template morphs into every tool in the Armoury.
-
-## The Morphing Template
-
-Each tool follows the same pattern: README + LICENSE + core logic + frontend.
-
-**Build one. Morph into many. The dragon lays eggs. The nests grow.**
-
 ## The Numbers
 
-- **31 repositories**
-- **14 weapons across 5 nests**
+- **36 repositories**
+- **18 weapons across 6 nests**
+- **6 arcade games**
 - **$250-500B estimated 10-year savings**
+
+## The Harness
+
+`gullwing/dev/harness.lua` — the plugin orchestrator. The template morphs into every tool.
 
 ## License
 

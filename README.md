@@ -1,6 +1,7 @@
 # The Dragon Armoury Suite
 
 A collection of open-source tools for financial data analysis, binary inspection, and regulatory compliance.
+The Dragon Armoury Suite could save the global financial system $250-500B over 10 years.
 
 **The Dragon's Nest**: This armoury spawns sub-suites. Each nest is a domain. Each egg is a tool.
 

@@ -44,6 +44,17 @@ The Dragon Armoury Suite could save the global financial system $250-500B over 1
 | Procurement Pursuit | Fraud patterns |
 | Fleet Commander | Headscale networking |
 
+## The Harness (The Nest)
+
+`gullwing/dev/harness.lua` — the plugin orchestrator that automates the pain away.
+
+- **check_disk()** — monitors C: drive space (the 0kb guard)
+- **validate()** — syntax checks all Lua files
+- **sync()** — WSL → Windows synchronisation
+
+The harness is the Cordis-style architecture. It mounts each weapon as a plugin.
+The template morphs into every tool in the Armoury.
+
 ## The Morphing Template
 
 Each tool follows the same pattern: README + LICENSE + core logic + frontend.
